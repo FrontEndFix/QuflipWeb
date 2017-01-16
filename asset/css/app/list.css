@@ -1,0 +1,491 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  float: left;
+  background: #fcfcfc; }
+  .main-container .q-header-list {
+    float: left;
+    width: 100%;
+    height: 14.3vw;
+    background: url("../../image/i-header-list.png") no-repeat;
+    background-size: contain; }
+    .main-container .q-header-list .q-nav {
+      float: left;
+      width: 100%;
+      height: 3rem;
+      margin-top: 3rem;
+      padding: 3rem; }
+      .main-container .q-header-list .q-nav .q-home {
+        float: left;
+        color: #fff;
+        padding: 0 2rem;
+        font-size: 1.7rem; }
+      .main-container .q-header-list .q-nav .q-about {
+        float: left;
+        color: #fff;
+        padding: 0 2rem;
+        font-size: 1.7rem; }
+      .main-container .q-header-list .q-nav .q-cart {
+        float: left;
+        color: #fff;
+        padding: 0 2rem;
+        font-size: 1.7rem; }
+  .main-container .q-truck {
+    float: left;
+    width: 100%; }
+    .main-container .q-truck .q-banner {
+      float: left;
+      width: 10rem;
+      height: 10rem;
+      background: #F5F5F5;
+      border: .5rem solid #EBE8E8;
+      border-radius: 2rem;
+      margin-left: calc(50% - 5rem);
+      margin-top: -5rem; }
+      .main-container .q-truck .q-banner .q-food-img {
+        width: 100%;
+        height: 100%; }
+    .main-container .q-truck .q-name {
+      width: 100%;
+      float: left;
+      text-align: center;
+      padding-top: 2rem;
+      font-size: 2.3rem;
+      font-weight: 700; }
+      .main-container .q-truck .q-name span {
+        background: grey;
+        padding: .5rem 1rem;
+        margin-left: 2rem;
+        color: white;
+        text-shadow: 0 0.2rem 0.4rem #a6a6a6;
+        font-weight: 700;
+        font-size: 1.5rem; }
+        .main-container .q-truck .q-name span.red {
+          background: #E93A3A; }
+        .main-container .q-truck .q-name span.green {
+          background: #2eb82e; }
+        .main-container .q-truck .q-name span.yellow {
+          background: #ffcc00; }
+    .main-container .q-truck .q-stars {
+      float: left;
+      width: 100%;
+      padding-top: 1rem;
+      text-align: center;
+      color: #bfbfbf; }
+    .main-container .q-truck .q-type {
+      float: left;
+      width: 100%;
+      text-align: center;
+      color: #242424;
+      font-size: 1.2rem; }
+    .main-container .q-truck .q-status {
+      float: left;
+      width: 100%;
+      text-align: center;
+      color: #242424;
+      font-size: 1.2rem;
+      padding-top: .5rem; }
+  .main-container .q-filters {
+    float: left;
+    width: 100%;
+    padding: 4rem 10rem 1rem 14rem; }
+    .main-container .q-filters .q-filter {
+      padding: .5rem 2rem;
+      background: #f2f2f2;
+      border-radius: 2rem;
+      float: left;
+      margin: 0 1rem;
+      cursor: pointer;
+      transition: all .3s; }
+      .main-container .q-filters .q-filter.selected {
+        background: #ccc;
+        box-shadow: 0 0rem 3rem 0 #bfbfbf; }
+    .main-container .q-filters .q-recommended a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i0.png) no-repeat;
+      background-size: contain;
+      float: left; }
+    .main-container .q-filters .q-spicy a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i1.png) no-repeat;
+      background-size: contain;
+      float: left; }
+    .main-container .q-filters .q-veg a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i2.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .2rem; }
+    .main-container .q-filters .q-fish a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i3.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .4rem; }
+    .main-container .q-filters .q-beef a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i4.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .2rem; }
+    .main-container .q-filters .q-mutton a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i5.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .2rem; }
+    .main-container .q-filters .q-pork a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i6.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .4rem; }
+    .main-container .q-filters .q-chicken a {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url(../../image/i7.png) no-repeat;
+      background-size: contain;
+      float: left;
+      margin-right: .5rem;
+      margin-top: .2rem; }
+  .main-container .q-menu {
+    float: left;
+    width: 100%;
+    padding: 1rem 10rem 3rem 12rem; }
+    .main-container .q-menu .q-head {
+      font-size: 2.3rem;
+      text-align: left;
+      width: 100%;
+      border-bottom: .2rem solid #cccccc;
+      margin-bottom: 4rem; }
+      .main-container .q-menu .q-head span {
+        background: #fcfcfc;
+        position: relative;
+        padding: 2rem;
+        top: 1.2rem; }
+    .main-container .q-menu .q-list {
+      float: left;
+      width: calc(50% - 2rem);
+      height: 10rem;
+      border-radius: 5rem;
+      margin: 1rem;
+      padding: .8rem 3rem 1rem .8rem;
+      background: #F9f9f9;
+      transition: all .2s; }
+      .main-container .q-menu .q-list.active {
+        border: .3rem solid #F6C21D;
+        box-shadow: 0 .7rem 2.8rem 0 #ccc; }
+      .main-container .q-menu .q-list .q-quantity {
+        float: right;
+        width: 2rem;
+        height: 2rem;
+        background: #E93A3A;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: .3rem;
+        color: #fff;
+        font-size: 1rem;
+        margin-right: -.8rem;
+        margin-top: -1.5rem;
+        cursor: pointer; }
+      .main-container .q-menu .q-list .q-left {
+        float: left;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        background: #999; }
+      .main-container .q-menu .q-list .q-right {
+        float: right;
+        width: calc(100% - 8rem);
+        height: 100%;
+        border-radius: 5rem; }
+        .main-container .q-menu .q-list .q-right .q-top {
+          float: left;
+          width: 100%;
+          height: 50%;
+          padding-top: 1.5rem;
+          padding-left: 1rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-recommended {
+            float: left;
+            width: 1rem;
+            height: 1.5rem;
+            background: url("../../image/i0.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-txt {
+            float: left;
+            margin-left: 1rem;
+            text-align: left;
+            font-size: 1.6rem;
+            padding-right: 1rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-spicy {
+            float: left;
+            width: 1.3rem;
+            height: 2rem;
+            background: url("../../image/i1.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-green {
+            float: left;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url("../../image/i2.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-fish {
+            float: left;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url("../../image/i3.png") no-repeat;
+            background-size: contain;
+            margin-top: .5rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-chicken {
+            float: left;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url("../../image/i7.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-cow {
+            float: left;
+            width: 2rem;
+            height: 2rem;
+            background: url("../../image/i4.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-sheep {
+            float: left;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url("../../image/i5.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+          .main-container .q-menu .q-list .q-right .q-top .q-pig {
+            float: left;
+            width: 2rem;
+            height: 1.5rem;
+            background: url("../../image/i6.png") no-repeat;
+            background-size: contain;
+            margin-top: .2rem;
+            margin-left: .8rem; }
+        .main-container .q-menu .q-list .q-right .q-bottom {
+          float: left;
+          width: 100%;
+          height: 50%;
+          padding-top: .5rem; }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-original {
+            float: left;
+            padding-left: 2rem;
+            font-size: 1.5rem; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-original.discount {
+              color: red;
+              text-decoration: line-through;
+              font-size: 1.2rem; }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-discount {
+            float: left;
+            padding-left: 2rem;
+            font-size: 1.5rem; }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-add {
+            float: right;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 700;
+            background: url(../../image/icon-add.png) no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            transition: all .3s;
+            display: none; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-add.active {
+              display: block; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-add:hover {
+              transform: scale(1.2); }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-quan {
+            float: right;
+            padding: 0 .5rem;
+            font-size: 1.5rem;
+            display: none; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-quan.active {
+              display: block; }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-add-to-cart {
+            float: right;
+            background: #52B6AC;
+            color: white;
+            padding: .5rem 1.5rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            display: none; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-add-to-cart.active {
+              display: block; }
+          .main-container .q-menu .q-list .q-right .q-bottom .q-remove {
+            float: right;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 700;
+            background: url(../../image/icon-remove.png) no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            transition: all .3s;
+            display: none; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-remove.active {
+              display: block; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-remove.inactive {
+              opacity: .3;
+              pointer-events: none;
+              cursor: not-allowed; }
+            .main-container .q-menu .q-list .q-right .q-bottom .q-remove:hover {
+              transform: scale(1.2); }
+    .main-container .q-menu .q-list:nth-child(4n+2),
+    .main-container .q-menu .q-list:nth-child(4n+1) {
+      background: #f2f2f2; }
+  .main-container .q-checkout {
+    position: absolute;
+    bottom: 0;
+    background: #444;
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .5s; }
+    .main-container .q-checkout.visible {
+      visibility: visible;
+      opacity: 1; }
+    .main-container .q-checkout .btn-chk {
+      background: #f7cb3b;
+      color: #fff;
+      padding: 1rem 5rem;
+      font-size: 2rem;
+      float: right;
+      cursor: pointer; }
+    .main-container .q-checkout .hvr-bounce-to-right {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s; }
+    .main-container .q-checkout .hvr-bounce-to-right:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #f5be0a;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 0 50%;
+      transform-origin: 0 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out; }
+    .main-container .q-checkout .hvr-bounce-to-right:hover,
+    .main-container .q-checkout .hvr-bounce-to-right:focus,
+    .main-container .q-checkout .hvr-bounce-to-right:active {
+      color: white; }
+    .main-container .q-checkout .hvr-bounce-to-right:hover:before,
+    .main-container .q-checkout .hvr-bounce-to-right:focus:before,
+    .main-container .q-checkout .hvr-bounce-to-right:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+    .main-container .q-checkout .q-cart {
+      float: left;
+      padding: 1rem 2rem;
+      font-size: 3rem;
+      color: #fff; }
+  .main-container .q-footer {
+    float: left;
+    width: 100%;
+    height: 22vw;
+    background: url("../../image/i-footer.png") no-repeat;
+    background-size: contain; }
+    .main-container .q-footer .q-foot-icons {
+      float: left;
+      width: 30rem;
+      height: 5rem;
+      margin-left: calc(50% - 15rem);
+      margin-top: 7rem;
+      padding: .5rem 4.5rem; }
+      .main-container .q-footer .q-foot-icons .q-twitter {
+        float: left;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        background: url("../../image/i-twitter.png") no-repeat;
+        background-size: contain;
+        margin-top: .2rem; }
+      .main-container .q-footer .q-foot-icons .q-fb {
+        float: left;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        background: url("../../image/i-fb.png") no-repeat;
+        background-size: contain; }
+      .main-container .q-footer .q-foot-icons .q-linkedin {
+        float: left;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        background: url("../../image/i-linkedin.png") no-repeat;
+        background-size: contain; }
+      .main-container .q-footer .q-foot-icons .q-insta {
+        float: left;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        background: url("../../image/i-insta.png") no-repeat;
+        background-size: contain;
+        margin-top: .2rem; }
+      .main-container .q-footer .q-foot-icons .hvr-pulse {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        cursor: pointer; }
+      .main-container .q-footer .q-foot-icons .hvr-pulse:hover,
+      .main-container .q-footer .q-foot-icons .hvr-pulse:focus,
+      .main-container .q-footer .q-foot-icons .hvr-pulse:active {
+        -webkit-animation-name: hvr-pulse;
+        animation-name: hvr-pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite; }

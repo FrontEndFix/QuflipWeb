@@ -1,0 +1,30 @@
+.main-container .c-header {
+  float: left;
+  width: 100rem;
+  border-bottom: .2rem solid #e6e6e6;
+  margin: 5rem calc(50% - 50rem);
+  padding: 1rem;
+  text-align: center;
+  font-size: 3.6rem;
+  color: #403e4b; }
+
+.main-container .c-order-head {
+  float: left;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.3rem;
+  color: #89888D; }
+
+.main-container .c-items {
+  float: left;
+  width: 60rem;
+  height: 10rem;
+  margin: 0rem calc(50% - 30rem);
+  padding: 1rem;
+  background: #F9f9f9; }
+  .main-container .c-items .c-img {
+    float: left; }
+
+.main-container .c-items:nth-child(even) {
+  background: #f2f2f2; }
