@@ -61,13 +61,13 @@
     .main-container .q-header .popular-items {
       float: left;
       width: 100%;
-      height: 35rem;
+      height: 34rem;
       padding: 0 5rem;
       margin-top: 2rem; }
       .main-container .q-header .popular-items .popular-tile {
         float: left;
         width: calc(25% - 2rem);
-        height: 35rem;
+        height: 34rem;
         margin: 0 1rem;
         padding: 2.5rem 1rem;
         transition: all .5s;
@@ -168,12 +168,13 @@
             text-align: center; }
         .main-container .q-header .popular-items .popular-tile .buy-now {
           float: left;
-          margin-top: 6rem;
-          margin-left: 8rem;
+          margin-top: 3rem;
+          margin-left: 10rem;
           background: #00cc66;
-          padding: .5rem 1rem;
+          padding: .5rem 1.5rem;
           cursor: pointer;
-          color: #fff; }
+          color: #fff;
+          border-radius: 2rem; }
   .main-container .q-search {
     float: left;
     width: 100%; }
@@ -231,13 +232,12 @@
           outline: none; }
   .main-container .q-items-container {
     float: left;
-    width: calc(100% - 15rem);
+    width: 100%;
     min-height: 48rem;
     max-height: 96rem;
     overflow-x: hidden;
     overflow-y: auto;
-    margin: 0 7.5rem;
-    padding: 8rem 0; }
+    padding: 8rem calc(50% - 51rem); }
     .main-container .q-items-container .q-item {
       float: left;
       width: calc(100% / 3);

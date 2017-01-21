@@ -10,8 +10,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- inject:lib:css -->
-    <link rel="stylesheet" href="asset/css/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="asset/css/lib/toaster.min.css">
+    <link rel="stylesheet" href="asset/css/lib/angular-input-stars.css">
+    <link rel="stylesheet" href="asset/css/lib/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/lib/toaster.css">
     <!-- endinject -->
     <!-- inject:app:css -->
     <link rel="stylesheet" href="asset/css/app/app.css">
@@ -27,16 +28,38 @@
 </body>
 
 <!-- inject:lib:js -->
-<script src="js/lib/angular.min.js"></script>
-<script src="js/lib/angular-animate.min.js"></script>
-<script src="js/lib/angular-route.min.js"></script>
-<script src="js/lib/toaster.min.js"></script>
-<script src="js/lib/ui-bootstrap-tpls.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/angular-animate.js"></script>
+<script src="js/lib/angular-input-stars.js"></script>
+<script src="js/lib/angular-route.js"></script>
+<script src="js/lib/toaster.js"></script>
+<script src="js/lib/ui-bootstrap-tpls.js"></script>
 <!-- endinject -->
 <!-- inject:app:js -->
-<script src="js/app.min.js"></script>
+<script src="js/app/controller/BaseController.js"></script>
+<script src="js/core/services/BaseAppService.js"></script>
+<script src="js/app/config/RouteConfig.js"></script>
+<script src="js/app/controller/CartController.js"></script>
+<script src="js/app/controller/HomeController.js"></script>
+<script src="js/app/controller/ListController.js"></script>
+<script src="js/app/controller/LoginController.js"></script>
+<script src="js/app/models/LoginModel.js"></script>
+<script src="js/app/directive/CompareTo.js"></script>
+<script src="js/core/models/Error.js"></script>
+<script src="js/core/models/LoggedInUserInfo.js"></script>
+<script src="js/core/models/RoutePermissionModel.js"></script>
+<script src="js/core/services/AppEventBusService.js"></script>
+<script src="js/core/services/NetworkService.js"></script>
+<script src="js/core/services/RouteAuthorizationService.js"></script>
+<script src="js/core/services/RouterService.js"></script>
+<script src="js/core/services/StorageService.js"></script>
+<script src="js/core/services/UserAuthorizationService.js"></script>
+<script src="js/core/services/ViewService.js"></script>
+<script src="js/core/shared/AppConstant.js"></script>
 <!-- endinject -->
 <!-- inject:module:js -->
+<script src="js/core/Core.Module.js"></script>
+<script src="js/app/App.Module.js"></script>
 <!-- endinject -->
 
 </html>

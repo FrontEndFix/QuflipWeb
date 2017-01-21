@@ -8,6 +8,7 @@
         <div class='q-subheader'>
             <div class="h-1"><span></span></div>
             <div class="h-2"><span></span></div>
+            <div class="clear-float"></div>
         </div>
         <div class='popular-items'>
             <div class='popular-tile' ng-repeat='item in vm.popuarItems'>
@@ -21,12 +22,9 @@
                     </div>
                     <div class='r-bottom'>{{item.cost | currency}}</div>
                 </div>
-                <span class="buy-now">Buy Now</span>
-                <!--<div class="add-to-cart">
-                    <div class="item-order">Order Now</div>
-                </div>-->
             </div>
         </div>
+        <div class="clear-float"></div>
     </div>
     <div class="q-search">
         <div class="q-head">Choose your favourite food truck</div>
@@ -38,8 +36,8 @@
         </div>
     </div>
     <div class="q-items-container">
-        <!--<div class="q-item" ng-repeat="cart in vm.itemList">
-            <div class="q-tile" ng-click="vm.goToListingPage(cart)">
+        <div class="q-item" ng-repeat="cart in vm.itemList">
+            <div class="q-tile">
                 <img class="q-food-img" src="/asset/image/{{cart.foodImg}}">
                 <div class="q-logo">
                     <img class="q-company" src="/asset/image/{{cart.companyLogo}}" />
@@ -51,34 +49,7 @@
                 <div class="q-type">{{cart.type}}</div>
                 <div class="q-status" ng-class="{'green':cart.status=='available'}">{{cart.status}}</div>
             </div>
-        </div>-->
-        <div class="q-item-1" ng-repeat="cart in vm.itemList">
-            <img class="q-food-img" src="/asset/image/{{cart.foodImg}}">
-            <img class="q-company" src="/asset/image/{{cart.companyLogo}}">
-            <span class="q-stars" ng-class="{'green':(cart.stars>=4),'yellow':(cart.stars ==2||cart.stars ==3),'red':(cart.stars < 2)}">{{cart.stars}}&#x2605;</span>
-            <span class="q-status" ng-class="{'green':(cart.status=='available'),'yellow':(cart.status =='wait 12-15 mins'),'red':(cart.status == 'closed')}">{{cart.status}}</span>
 
-            <div class="q-info">
-                <div class="q-name">{{cart.name}}</div>
-                <span class="q-type">{{cart.type}}</span>
-            </div>
-            <div class="q-comments"><span>&#147;</span> {{cart.comment}}
-                <span>&#148;</span></div>
-            <div class="q-order-now hvr-bounce-to-right" ng-click="vm.goToListingPage(cart)">Order Now <span>&#8594;</span></div>
-
-
-            <!--<div class="q-tile" ng-click="vm.goToListingPage(cart)">
-                <img class="q-food-img" src="/asset/image/{{cart.foodImg}}">
-                <div class="q-logo">
-                    <img class="q-company" src="/asset/image/{{cart.companyLogo}}" />
-                </div>
-                <div class="q-name">{{cart.name}}</div>
-                <div class="q-stars">
-                    <input-stars ng-model="cart.stars" max="5"></input-stars>
-                </div>
-                <div class="q-type">{{cart.type}}</div>
-                <div class="q-status" ng-class="{'green':cart.status=='available'}">{{cart.status}}</div>
-            </div>-->
         </div>
     </div>
     <div class="q-subscribe">
